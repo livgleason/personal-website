@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Olivia Gleason - Personal Website</title>
+    <style>
+
+        body {
+            background: #F1F3E0;
+        }
+
+        .title-container {
+            background: #D2DCB6;
+            padding: 30px 20px 30px;
+        }
+
+        h1 {
+            font-family: "Anton", sans-serif;
+            font-weight: 200;
+            font-style: normal;
+            font-size: 100px;
+            letter-spacing: 3px;
+            text-align: center;
+            line-height: 15px;
+            color: black;
+        }
+
+        h2 {
+            font-family: "Anton", sans-serif;
+            font-size: 50px;
+            letter-spacing: 3px;
+            text-align: center;
+            color: black;
+        }
+
+        h2::after {
+            content: '';
+            display: block;
+            width: 120px;
+            height: 4px;
+            background: black;
+            margin: 1rem auto 0;
+        }
+
+        h3 {
+            font-family: "Anton", sans-serif;
+            font-size: 30px;
+            letter-spacing: 3px;
+            text-align: center;
+            color: black;
+        }
+
+        .headline {
+            font-family: "Montserrat", sans-serif;
+            font-size: 20px;
+            text-align: center;
+            line-height: 10px;
+        }
+
+        .social-links {
+            text-align: center;
+            font-size: 50px;
+            padding: 9px;
+            color: black;
+        }
+
+        .social-links a {
+            color: #778873;
+            margin: 0 8px;
+            text-decoration: none;
+        }
+
+        .contact-info {
+            font-family: "Montserrat", sans-serif;
+            text-align: center;
+            font-size: 15px;
+            padding: 6px;
+        }
+
+        .contact-info a {
+            color: black;
+        }
+
+        .about-content {
+            max-width: 1000px;
+            font-family: "Montserrat", sans-serif;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 18px;
+            line-height: 30px;
+            margin-bottom: 100px;
+            color: #555;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            border-width: 15px;
+            border-color: #A1BC98;
+            border-style: solid;
+            border-radius: 20px;
+        }
+
+        .skills {
+            font-family: "Montserrat", sans-serif;
+            text-align: center;
+            font-size: 18px;
+            line-height: 30px;
+            color: #555;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .project {
+            font-family: "Montserrat", sans-serif;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 13px;
+            line-height: 30px;
+            margin-bottom: 100px;
+            color: #555;
+            background: #D2DCB6;
+            border-radius: 15px;
+            max-width: 300px;
+            padding: 15px;
+        }
+
+        .project-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-family: "Montserrat", sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            color: black;
+            text-decoration: none;
+            padding: 1px 1px;
+        }
+
+    </style>
+</head>
+<body>
+    <section id="home">
+    <div class="title-container">
+        <h1>OLIVIA GLEASON</h1>
+        <p class="headline"> Data Science Student with Concentration in Marketing Analytics, Minor in Math</p>
+        <div class="contact-info">
+            (971) 713-8152 | <a href="mailto:gleason.olivia@icloud.com">gleason.olivia@icloud.com</a>
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/livgleason" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/oliviamgleason" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+    </div>
+    </section>  
+    <section id="about">
+        <h2>ABOUT ME</h2>
+        <div class="about-content">
+            <p>Hi! I'm Liv, a Data Science student with a passion for uncovering the stories hidden in sports data. 
+                My goal is to combine my curiosity with my love of sports to help teams and organizations make smarter, more 
+                impactful choices. I'm energized by projects that challenge me to think critically, explore new tools, and turn 
+                raw data into something meaningful. Whether it's analyzing player performance, evaluating strategy, or building 
+                predictive models, I'm always excited to dive deeper and keep learning. At my core, I'm someone who enjoys solving 
+                problems, asking questions, and finding patterns—especially when they involve the sports world I grew up loving. I'm 
+                driven, collaborative, and eager to keep growing as I move toward a career in sports analytics.</p>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>TECHNICAL SKILLS</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>PROGRAMMING</h3>
+                <div class="skills">
+                    <p>Python</p>
+                    <p>C</p>
+                    <p>R</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>FRAMEWORKS</h3>
+                <div class="skills">
+                    <p>Pandas</p>
+                    <p>Scikit-learn</p>
+                    <p>NumPy</p>
+                    <p>Matplotlib</p>
+                    <p>Jupyter</p>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>DATA TOOLS</h3>
+                <div class="skills">
+                    <p>Excel</p>
+                    <p>Tableau</p>
+                    <p>Power BI</p>
+                    <p>SQL</p>
+                    <p>TablePress</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>PROJECTS</h2>
+        <div class="project-grid">
+            <div class="project">
+                <h3>NFL FOURTH DOWN ANALYSIS</h3>
+                <a href="https://github.com/livgleason/TennisStats" target="_blank" class="project-link">
+                    View Project <i class="fab fa-github"></i>
+                </a>
+                <p>Pandas-based analysis of play-by-play data exploring how field position, yards to go, and more 
+                    influence fourth-down decisions and success rates. The project cleans the data, engineers key features, and 
+                    identifies patterns to better understand when teams should go for it using predictive modeling.</p>
+            </div>
+            <div class="project">
+                <h3>TENNIS STATISTICS WEBSITE</h3>
+                <a href="https://github.com/livgleason/TennisStats" target="_blank" class="project-link">
+                    View Project <i class="fab fa-github"></i>
+                </a>
+                <p>A data-driven web application that displays professional tennis statistics. Integrated Python and Pandas to 
+                    process and analyze player data, with an interactive front end made with HTML and CSS to present player and 
+                    tournament information.</p>
+            </div>
+            <div class="project">
+                <h3>INTERACTIVE SUDOKU SOLVER</h3>
+                <a href="https://github.com/livgleason/Sudoku-solver" target="_blank" class="project-link">
+                    View Project <i class="fab fa-github"></i>
+                </a>
+                <p>Developed a fully functional Sudoku-solving program using Python. Implemented the backtracking algorithm and 
+                    game logic within a provided framework, enabling the program to automatically fill valid solutions and 
+                    validate user input.</p>
+            </div>
+            <div class="project">
+                <h3>FIVETWELVE GAME (2048 COPYCAT)</h3>
+                <a href="https://github.com/livgleason/Five-Twelve-game" target="_blank" class="project-link">
+                    View Project <i class="fab fa-github"></i>
+                </a>
+                <p>Built the core logic and gameplay mechanics for a 2048-style puzzle game using Python. Designed the 
+                    tile-merging and movement system within a given framework, ensuring accurate game state updates and win/loss 
+                    detection.</p>
+            </div>
+            <div class="project">
+                <h3>INTERACTIVE CALCULATOR</h3>
+                <a href="https://github.com/livgleason/Interactive-calculator" target="_blank" class="project-link">
+                    View Project <i class="fab fa-github"></i>
+                </a>
+                <p>Encoded the logic for a versatile calculator capable of evaluating expressions in both standard infix 
+                    notation and reverse polish notation through the command line.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
